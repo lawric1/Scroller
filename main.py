@@ -5,7 +5,6 @@ speed = 0
 
 try:
     while True:
-        x, y = pyautogui.position()
         if keyboard.is_pressed('x'):
             speed -= 3
         elif keyboard.is_pressed('z'):
