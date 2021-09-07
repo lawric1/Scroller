@@ -1,4 +1,4 @@
 env
 icon.ico
 main
-_pychache
+__pycache__
