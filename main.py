@@ -1,7 +1,6 @@
 import sys
 
 from PyQt5.uic import loadUi
-from PyQt5 import QtCore
 from PyQt5.QtCore import QObject, QThread, Qt
 from PyQt5.QtWidgets import QDialog, QApplication
 from PyQt5.QtGui import QIcon
