@@ -23,10 +23,13 @@
    <string notr="true"/>
   </property>
   <widget class="QWidget" name="bgwidget" native="true">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
    <property name="geometry">
     <rect>
      <x>-1</x>
-     <y>-1</y>
+     <y>0</y>
      <width>201</width>
      <height>201</height>
     </rect>
@@ -37,6 +40,9 @@ background-color:qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:1, stop:0 rgba
 }</string>
    </property>
    <widget class="QLineEdit" name="field1">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>30</x>
@@ -52,7 +58,7 @@ background-color:qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:1, stop:0 rgba
      <enum>Qt::ClickFocus</enum>
     </property>
     <property name="toolTip">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string/>
     </property>
     <property name="styleSheet">
      <string notr="true">QLineEdit {
@@ -65,13 +71,14 @@ background-color:qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:1, stop:0 rgba
 
 QLineEdit:hover {
 	border: 2px solid white;
-}</string>
+}
+</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QPushButton" name="startBtn">
+   <widget class="QPushButton" name="btn">
     <property name="enabled">
      <bool>true</bool>
     </property>
@@ -103,6 +110,9 @@ color: rgb(166, 168, 181)
     </property>
    </widget>
    <widget class="QLineEdit" name="field2">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>30</x>
@@ -137,7 +147,8 @@ color: rgb(166, 168, 181)
 
 QLineEdit:hover {
 	border: 2px solid white;
-}</string>
+}
+</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
