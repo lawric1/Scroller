@@ -9,6 +9,7 @@ from PyQt5.QtGui import QIcon
 import pyautogui
 import keyboard
 
+pyautogui.FAILSAFE = False
 # Helper function to send folder file's path when the .exe is built
 def resource_path(relative_path):
     try:
