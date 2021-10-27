@@ -33,9 +33,9 @@ class Worker(QObject):
 
         while self.active:
             if keyboard.is_pressed(self.key1):
-                speed += 3
+                speed += 2
             elif keyboard.is_pressed(self.key2):
-                speed -= 3
+                speed -= 2
 
             pyautogui.scroll(speed)
 
